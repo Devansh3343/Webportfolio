@@ -57,7 +57,7 @@ const HeroSection = () => {
         <motion.div
   className="col-span-4 place-self-center mt-4 lg:mt-0"
 >
-  <div className="w-[350px] h-[350px] bg-[url('/ProfilePicture.png')] bg-no-repeat bg-center bg-cover shadow-inner rounded-full animate-profile__animate relative border-[4px] border-white/30 backdrop-blur-md" >
+  <div className="w-[350px] h-[350px] bg-[url('/profilepicture.png')] bg-no-repeat bg-center bg-cover shadow-inner rounded-full animate-profile__animate relative border-[4px] border-white/30 backdrop-blur-md" >
     {/* Adjust Image props or remove if unnecessary */}
   </div>
 </motion.div>

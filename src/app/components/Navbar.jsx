@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link href={"/"} className="flex items-center">
           <img
-            src="devanshlogo.svg"
+            src="devanshlogo.SVG"
             alt="Logo"
             className="h-10 w-auto" // Adjust height and width as needed
           />
