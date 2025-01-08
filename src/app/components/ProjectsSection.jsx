@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "TrashCam",
     description: "An AI-powered tool that scans and categorizes garbage, guiding users to dispose of waste sustainably and reduce landfill impact.",
-    image: "/Projects/TrashCam.png",
+    image: "/Projects/trashcam.png",
     tag: ["All", "Software"],
     gitUrl: "/",
     previewUrl: "/",
