@@ -2,18 +2,18 @@ const AboutSection = () => {
   const skills = [
     {
       category: "Programming Languages",
-      items: ["python", "cpp", "cs", "rust", "javascript", "matlab"],
+      items: ["python", "cpp", "cs", "javascript", "typescript", "matlab", "java", "scala", ],
     },
     {
       category: "Libraries",
       items: [
         "react",
-        "svelte",
+        "next",
         "nodejs",
         "flask",
         "graphql",
         "pytorch",
-        "sklearn",
+        "dynamodb",
         "opencv",
       ],
     },

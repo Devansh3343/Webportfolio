@@ -13,22 +13,20 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-7 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-black mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-black bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m Devansh Nagpal {" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Devansh Nagpal",
+                "a Full-Stack Developer",
                 1000,
-                "Full-Stack Developer",
+                "a Machine Learning Enthusiest",
                 1000,
-                "Embedded Software Developer",
-                1000,
-                "Computer Engineer",
+                "an Embedded Software Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -57,22 +55,12 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-        <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-          <Image
-            src="/ProfilePicture.png"
-            alt="hero image"
-            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[44%] left-[45%] w-[200px] h-[200px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]"
-            width={300}
-            height={300}
-          />
-        </div>
-
-        </motion.div>
+  className="col-span-4 place-self-center mt-4 lg:mt-0"
+>
+  <div className="w-[350px] h-[350px] bg-[url('/ProfilePicture.png')] bg-no-repeat bg-center bg-cover shadow-inner rounded-full animate-profile__animate relative border-[4px] border-white/30 backdrop-blur-md" >
+    {/* Adjust Image props or remove if unnecessary */}
+  </div>
+</motion.div>
       </div>
     </section>
   );
